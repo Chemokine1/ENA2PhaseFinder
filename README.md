@@ -15,16 +15,16 @@ This repository is designed for bioinformatics scientists who knows how to use p
 To use this script, update the following directory paths inside the Bash script before running it:
 
 ### CSV file containing accession names of the metagenomic samples
-input_file="./accessions.csv"
+`input_file="./accessions.csv"`
 
 ### Directory where the results will be saved
-output_dir="path/to/output/directory"
+`output_dir="path/to/output/directory"`
 
 ### Path to the `fastq-dump` executable from SRA Toolkit
-fastq_dump="~/sratoolkit.3.1.1-ubuntu64/bin/fastq-dump"
+`fastq_dump="~/sratoolkit.3.1.1-ubuntu64/bin/fastq-dump"`
 
 ### Path to the PhaseFinder algorithm (`PhaseFinder.py`)
-phasefinder_path="~/PhaseFinder/PhaseFinder.py" 
+`phasefinder_path="~/PhaseFinder/PhaseFinder.py"`
 
 
 ## Citation

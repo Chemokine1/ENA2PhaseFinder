@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # CSV file with the eccession names of the metagenomic samples
-input_file="path/for/the/acession/file.csv"
-# Directory of the the result's output 
+input_file="./accessions.csv"
+# Directory of the the result's output
 output_dir="path/for/the/output/dir"
 # Directory of where the SRAtoolkit is located
 fastq_dump="~/sratoolkit.3.1.1-ubuntu64/bin/fastq-dump"
 # Directory of where the PhaseFinder.py algo is found
-phasefinder_path="~/PhaseFinder/PhaseFinder.py"
+phasefinder_path="~/PhaseFinder/PhaseFinder.py" 
 
 # A counter for number of processed files
 count=0

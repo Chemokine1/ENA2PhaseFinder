@@ -1,5 +1,5 @@
 ## This Bash script automates:
-#### downloading metagenomic sequencing data from the ENA database using SRAtoolkitit.
+#### downloading metagenomic sequencing data from the ENA database using SRAtoolkit.
 #### Run PhaseFinder for inversion analysis.
 #### Remove the metagenomic sequences and save the results.
    

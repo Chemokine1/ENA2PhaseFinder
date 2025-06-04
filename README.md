@@ -21,6 +21,7 @@ To use this script, update the following directory paths inside the Bash script 
 `output_dir="path/to/output/directory"`
 
 #### Path to the `fastq-dump` executable from SRA Toolkit
+#### (fastq-dump extracts FASTQ files from SRA data, supporting paired-end reads, compression, and direct download from NCBI’s database.)
 `fastq_dump="~/sratoolkit.3.1.1-ubuntu64/bin/fastq-dump"`
 
 #### Path to the PhaseFinder algorithm (`PhaseFinder.py`)
